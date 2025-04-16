@@ -1,0 +1,62 @@
+.featured-jobs-section {
+    padding: 3rem 0;
+  }
+  
+  .featured-jobs-section .container {
+    max-width: 1000px;
+  }
+  
+  .featured-jobs-section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .featured-jobs-section .job-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .featured-jobs-section .job-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .featured-jobs-section .job-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #222;
+  }
+  
+  .featured-jobs-section .job-card p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0.75rem;
+  }
+  
+  .featured-jobs-section .job-card button {
+    background-color: #28a745; /* Example success color */
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  
+  .featured-jobs-section .job-card button:hover {
+    background-color: #218838;
+  }
+  
+  /* Responsive adjustments for job list */
+  @media (max-width: 600px) {
+    .featured-jobs-section .job-list {
+      grid-template-columns: 1fr; /* Single column on smaller screens */
+    }
+  }
