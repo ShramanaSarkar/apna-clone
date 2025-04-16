@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/apna-clone/static/css/main.690cc6cf.css",
+    "main.js": "/apna-clone/static/js/main.11dcd454.js",
+    "static/js/453.611549aa.chunk.js": "/apna-clone/static/js/453.611549aa.chunk.js",
+    "index.html": "/apna-clone/index.html",
+    "main.690cc6cf.css.map": "/apna-clone/static/css/main.690cc6cf.css.map",
+    "main.11dcd454.js.map": "/apna-clone/static/js/main.11dcd454.js.map",
+    "453.611549aa.chunk.js.map": "/apna-clone/static/js/453.611549aa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.690cc6cf.css",
+    "static/js/main.11dcd454.js"
+  ]
+}
